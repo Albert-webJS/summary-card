@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style/main.css">
+    <script defer src="./src/js/main.js"></script>
+    <title>Summary-card</title>
+</head>
+<body>
+    <div class="container">
+        <div class="summary-card">
+            <section class="summary-card__сompetency-snapshot сompetency-snapshot">
+                <h3 class="сompetency-snapshot__title">Your Result</h3>
+                <div class="сompetency-snapshot__progress-stats progress-stats">
+                    <span class="progress-stats__result">30</span>
+                    <span class="progress-stats__max">of 100</span>
+                </div>
+                <div class="сompetency-snapshot__content content">
+                    <h1 class="content__title">Great</h1>
+                    <p class="content__description">Your performance exceed 65% of the people conducting the test here!</p>
+                </div>
+            </section>
+            <section class="summary-card__progress-detail progress-detail">
+                <h3 class="progress-detail__title">Summary</h3>
+                <div class="progress-detail__сategory-stats сategory-stats">
+                    <div class="сategory-stats__metric-display metric-display clr-transparend-red">
+                        <svg class="metric-display__icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <use xlink:href="./src/assets/sprite.svg#reaction"></use>
+                        </svg>
+                        <span class="metric-display__title metric-display__title_color_red">Reaction</span>
+                        <span class="metric-display__stats">80</span>
+                        <span class="metric-display__stats_max">/ 100</span>
+                    </div>
+                    <div class="сategory-stats__metric-display metric-display clr-transparend-yellow">
+                        <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <use xlink:href="./src/assets/sprite.svg#memory"></use>
+                        </svg>
+                        <span class="metric-display__title metric-display__title_color_yellow">Memory</span> 
+                        <span class="metric-display__stats">92</span>
+                        <span class="metric-display__stats_max">/ 100</span>
+                    </div>
+                    <div class="сategory-stats__metric-display metric-display clr-transparend-green">
+                        <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <use xlink:href="./src/assets/sprite.svg#verbal"></use>
+                        </svg>
+                        <span class="metric-display__title metric-display__title_color_green">Verbal</span>
+                        <span class="metric-display__stats">61</span>
+                        <span class="metric-display__stats_max">/ 100</span>
+                    </div>
+                    <div class="сategory-stats__metric-display metric-display clr-transparend-blue">
+                        <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <use xlink:href="./src/assets/sprite.svg#visual"></use>
+                        </svg>
+                        <span class="metric-display__title metric-display__title_color_blue">Visual</span>
+                        <span class="metric-display__stats">73</span>
+                        <span class="metric-display__stats_max">/ 100</span>
+                    </div>
+                </div>
+                <button class="progress-detail__button">Continue</button>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
